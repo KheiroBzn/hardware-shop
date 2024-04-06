@@ -1,0 +1,311 @@
+/* Start Main */
+
+body { /*
+    background-color: #F4F4F4; */
+    font-size: 16px;
+
+}
+
+.asterisk {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    color: orangered;
+}
+
+.logo {
+    width: auto;
+    height: 40px;
+}
+
+/* End Main */
+
+
+/* Start Login Form */
+
+.login {
+    width: 454px;
+    height: 454px;
+    margin-top: 50px !important;
+    border-radius: 25%;
+    background-image: url('/layout/images/login.png') !important;
+}
+
+.login .form {
+    margin-top: 130px;
+}
+
+.login h4 {
+    color: #888;
+}
+
+.login .form-control {
+    background-color: #EAEAEA;
+    border-radius: 20%;
+}
+
+.login .btn {
+    background-color: #6C63FF;
+    border-radius: 20%;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+/* End Login Form */
+
+
+/* Start Bootstrap Edits */
+
+.navbar {
+    background-color: #224A61 !important;
+}
+
+.dropdown-menu {
+    color: #2c3e50;
+    background-color: #95a5a6;
+}
+
+.form-control {
+    position: relative;
+    background-color: #FFF !important;
+}
+
+
+/* End Bootstrap Edits */
+
+/* Start Dashboard Page */
+
+.dash-title {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px !important; /*
+    color: #3a3b45 !important;
+    color: #224A61 !important; */
+    background-color: #224A61 !important;
+}
+
+.dash-title i, .dash-title span, .nav-link {
+    width: 100%; /*
+    color: #3a3b45 !important; */ 
+    color: #eaecf4 !important;
+}
+
+.dash-title h4 {
+    color: #F4F4F4 !important;
+}
+
+.visit-site {
+    color: #eaecf4 !important;
+}
+
+.nav-link:hover, 
+.dash-title i:hover,
+.dash-title .title:hover, 
+.visit-site:hover h4, 
+.visit-site:hover i {
+    color: #36b9cc !important;
+}
+
+.dash-title a:hover {
+    text-decoration: none;
+}
+
+.home-stats .stat {
+    padding-top: 15px !important;
+    margin-bottom: 10px !important;
+    font-size: 20px !important;
+    color: #FFF;
+}
+
+.home-stats .stat a {
+    color: #FFF;
+}
+
+.home-stats .stat a:hover {
+    text-decoration: none;
+}
+
+.home-stats .stat span {
+    display: block;
+    font-size: 40px;
+}
+
+.home-stats .stat, .dash-title, .latest .card, .main-table {
+    border-radius: 15px;
+    -webkit-box-shadow: 0 6px 12px #CCC;
+    -moz-box-shadow: 0 6px 12px #CCC;
+/*    box-shadow: 0 6px 12px #CCC; */
+    box-shadow: 0px 0px 24px #CCC;  
+}
+
+.latest:hover .card, .main-table:hover {
+    -webkit-box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+    box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.latest-main {
+    margin-top: 30px;
+}
+
+.card-header .toggle-info:hover {
+    color: #AAA;
+    cursor: pointer;
+}
+
+.latest-main .card {
+    margin-bottom: 30px;
+}
+
+.latest-main .card a:hover {
+    text-decoration: none;
+}
+
+.latest-main .card-header, .stats-card .card-header {
+    background-color: #224A61;
+    color: #F4F4F4;
+}
+
+.stats-card .card-body {
+    color: #555;
+}
+
+.latest {
+    margin-bottom: 0;
+}
+
+.latest .btn {
+    padding: 0 6px;
+    margin: 0 3px;
+}
+
+.latest .latest-li {
+    padding: 5px 5px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.latest .latest-li:nth-child(odd) {
+    background-color: #eaeaE1;
+}
+
+/* End Dashboard Page */
+
+/* Start Members Page */
+
+h1 {
+    font-size: 50px;
+    margin: 40px 0;
+}
+
+.main-table {
+    -webkit-box-shadow: 0 3px 10px #CCC;
+    -moz-box-shadow: 0 3px 10px #CCC;
+    box-shadow: 0 3px 10px #CCC;
+}
+
+.main-table td {
+    background-color: #FFF;
+    vertical-align: middle !important;
+    height: 100%;
+    color: #3a3b45;
+}
+
+.main-table .btn {
+    padding: 2px 8px;
+    margin: 2px;
+}
+
+.members-title h4 .selected { 
+    font-weight: bold;
+}
+
+.members-title h4 .title:hover {
+    cursor: pointer;
+}
+
+.members-container .admins {
+    display: none;
+}
+
+.approuve {
+    margin-left: 6px !important;
+}
+
+.main-table tr:first-child td {
+    background-color: #224A61 !important;
+    color: #FFF;
+}
+
+.main-table .even td {
+    background-color: #eaeaE1 !important;
+    border-color: #FFF;
+}
+
+.main-table tr:active td {
+    background-color: #224A55 !important;
+    color: #FFF !important;
+}
+
+.main-table tr:hover td {
+    background-color: #224A55 !important;
+    color: #FFF !important;
+}
+
+.main-table tr:hover td a {
+    color: #FFF !important;
+    font-weight: bold;
+}
+
+.members-container,
+.scat-container,
+.cat-container, 
+.items-container, 
+.dash-container, 
+.comments-container, 
+.commands-container,
+.statistics-container {
+    width: 98%;
+    margin: auto;
+    padding: 50px 0 100px 0;
+}
+
+.add-btn {
+    padding: 3px 10px;
+    list-style: upper-roman;
+}
+
+.statistics-container .years {
+    background-color: #224A61 !important;
+    color: #FFF;
+}
+
+.statistics-container .month {
+    font-size: 15px !important;
+}
+
+.statistics-container .month .active {
+    color: #224A61;
+    font-weight: bold;
+    min-width: 78%;
+}
+
+.statistics-container .years:hover, .statistics-container .month:hover {
+    text-decoration: none !important;
+}
+
+/* Start Members Page */
+
+.description-table .even td {
+    background-color: #eaeaE1 !important;
+    border-color: #FFF;
+}
+
+.description-table .odd td {
+    background-color: #f6f7f0 !important;
+    border-color: #eaeaE1;
+}
